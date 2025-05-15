@@ -9,17 +9,6 @@ This repository contains selected code snippets, scripts, and mini-projects that
 
 Each subfolder contains a self-contained example, typically with a brief description and any relevant dependencies. Topics include:
 
-- **Diagnostics & Control**
-  - Real-time data visualisation using Python and EPICS
-  - Automated alignment and calibration routines
-- **Data Analysis**
-  - Signal processing for laser–plasma experiments
-  - Curve fitting and uncertainty analysis
-- **Simulation & Modelling**
-  - Particle dynamics simulations (Python, MATLAB)
-  - Optical system modelling and beam propagation
-- **Miscellaneous**
-  - Quick utilities and scripts used in lab environments
 
 ## 📄 License
 
