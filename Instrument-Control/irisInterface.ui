@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton_1">
+	  <property name="font">
+	   <font>
+		<pointsize>20</pointsize>
+       </font>
+	  </property>
+      <property name="text">
+       <string>100</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton_2">
+	  <property name="font">
+	   <font>
+		<pointsize>20</pointsize>
+       </font>
+	  </property>
+      <property name="text">
+       <string>75</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="pushButton_3">
+	  <property name="font">
+	   <font>
+		<pointsize>20</pointsize>
+       </font>
+	  </property>
+      <property name="text">
+       <string>50</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="pushButton_4">
+     	<property name="font">
+	    <font>
+		  <pointsize>20</pointsize>
+       </font>
+	   </property>
+      <property name="text">
+       <string>25</string>
+      </property>
+     </widget>
+    </item>
+	<item row="0" column="4">
+     <widget class="QPushButton" name="pushButton_5">
+	  <property name="font">
+	   <font>
+		 <pointsize>20</pointsize>
+      </font>
+	  </property>
+      <property name="text">
+       <string>10</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QPushButton" name="pushButton_6">
+	  <property name="font">
+	   <font>
+		<pointsize>20</pointsize>
+       </font>
+	  </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QSpinBox" name="spinBox">
+	  <property name="font">
+	   <font>
+		<pointsize>20</pointsize>
+       </font>
+	  </property>
+      <property name="minimum">
+       <number>5</number>
+      </property>
+      <property name="maximum">
+       <number>100</number>
+      </property>
+	  <property name="font">
+	   <font>
+		 <pointsize>20</pointsize>
+      </font>
+	  </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="pushButton2">
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Set position</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Print position</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" rowspan="4" colspan="6">
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>798</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuExit">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionQuit"/>
+   </widget>
+   <addaction name="menuExit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionQuit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_1</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>set_100_button()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>335</x>
+     <y>76</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>348</x>
+     <y>26</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>set_75_button()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>335</x>
+     <y>56</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>348</x>
+     <y>26</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>set_50_button()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>178</x>
+     <y>127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>794</x>
+     <y>99</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>set_25_button()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>178</x>
+     <y>127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>794</x>
+     <y>99</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>set_10_button()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>178</x>
+     <y>127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>794</x>
+     <y>99</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>set_5_button()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>178</x>
+     <y>127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>794</x>
+     <y>99</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>print_position_button()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>178</x>
+     <y>127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>794</x>
+     <y>99</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>set_position_button()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>178</x>
+     <y>127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>794</x>
+     <y>99</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>set_100_button()</slot>
+  <slot>set_75_button()</slot>
+  <slot>set_50_button()</slot>
+  <slot>set_25_button()</slot>
+  <slot>set_10_button()</slot>
+  <slot>set_5_button()</slot>
+  <slot>set_position_button()</slot>
+  <slot>print_position_button()</slot> 
+ </slots>
+</ui>
