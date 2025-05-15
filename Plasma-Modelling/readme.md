@@ -53,6 +53,15 @@ A Python-based post-processing script for analyzing electron energy spectra from
 - `initialExample.sl`
 A template slurm file for requesting and scheduling the computational resource request
 
+- `TemporalIonizationDesigner`
+This MATLAB script generates a 3D spatial distribution of ionization probability ("torch") produced by a laser pulse interacting with a neutral gas target. It uses ADK tunnel ionization theory to compute the instantaneous ionization rate integrated over the laser pulse duration and spatial profile.
+
+The script allows configuring gas species, laser pulse parameters (energy, spot size, duration), and simulation grid resolution to produce a realistic initial plasma distribution. This output can be exported as a formatted particle macro-distribution file for input into PIC codes such as VVSim.
+
+The generated "torch" models the initial ionized plasma shape induced by the laser, which is essential for plasma wakefield acceleration and other laser-plasma interaction studies.
+
+Optional features include visualizing the ionization probability in 2D slices and calculating total ionized charge in specified regions.
+
 
 ---
 
