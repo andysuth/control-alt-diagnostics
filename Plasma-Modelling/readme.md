@@ -35,22 +35,22 @@ PIC simulations allow researchers to:
   - **Boundary Conditions**: Absorbing or reflecting boundaries as required.
   - **Field Solvers**: Definitions for electromagnetic field updates and Poisson solvers.
  
-- 'indiSpec.py'
+- `indiSpec.py`
 A Python-based post-processing script for analyzing electron energy spectra from VSim PIC simulations. The script:
 
-- Loads HDF5 particle data dumps for specified species (e.g., electrons from hydrogen and helium)
-- Computes total charge and kinetic energy across simulation time
-- Generates histograms of energy distributions for different spatial regions
-- Calculates **impact ionization yield rates** based on gas-specific cross sections
-- Produces time-resolved plots of:
-  - Total charge and energy evolution
-  - Instantaneous and cumulative yield
-  - Energy spectra with spatial filtering
-- Fits linear trends to cumulative yield vs. time, estimating yield rates in pC/ps
+  - Loads HDF5 particle data dumps for specified species (e.g., electrons from hydrogen and helium)
+  - Computes total charge and kinetic energy across simulation time
+  - Generates histograms of energy distributions for different spatial regions
+  - Calculates **impact ionization yield rates** based on gas-specific cross sections
+  - Produces time-resolved plots of:
+    - Total charge and energy evolution
+    - Instantaneous and cumulative yield
+    - Energy spectra with spatial filtering
+  - Fits linear trends to cumulative yield vs. time, estimating yield rates in pC/ps
 
-The script outputs `.png` visualizations and a summary `.txt` file containing quantitative results. It is designed to support kinetic analysis of beam–plasma interactions, especially in the context of plasma wakefield acceleration where secondary ionization plays a role in plasma response and diagnostics.
+  The script outputs `.png` visualizations and a summary `.txt` file containing quantitative results. It is designed to support kinetic analysis of beam–plasma interactions, especially in the context of plasma wakefield acceleration where secondary ionization plays a role in plasma response and diagnostics.
   
-- 'initialExample.sl'
+- `initialExample.sl`
 A template slurm file for requesting and scheduling the computational resource request
 
 
