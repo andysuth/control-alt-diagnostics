@@ -1,4 +1,4 @@
-### Motorised Optics Control Interfaces
+# Motorised Optics Control Interfaces
 
 This directory contains Python-based GUIs for controlling two motorised optical components: an iris and a waveplate. The interfaces are built using PyQt5 and are designed for laboratory use with serial or USB-controlled actuators.
 
@@ -24,7 +24,7 @@ pyserial (for waveplate control)
 
 ## Usage
 
-Run either script from a Cygwin or native Windows Python environment:
+Run either script from Python environment:
 
 python irisScript.py
 
