@@ -15,8 +15,7 @@ This project is an interactive ray tracing tool for modeling Gaussian beam propa
 The GUI supports interactive modification of lens parameters via a `uitable`, with automatic plot updates. Users can add or remove lenses using GUI buttons and adjust the total propagation length.
 
 ## 📷 Interface Snapshot
-
-<img width="1284" height="652" alt="Example" src="https://github.com/user-attachments/assets/b95b24fa-2881-478d-847c-dd0ecd62db74" />
+<img width="1500" height="625" alt="Example" src="https://github.com/user-attachments/assets/964f5f71-6bcc-4fd8-b09c-2a8a33e3cc7f" />
 
 ## Getting Started
 
