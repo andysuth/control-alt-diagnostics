@@ -16,7 +16,7 @@ The GUI supports interactive modification of lens parameters via a `uitable`, wi
 
 ## 📷 Interface Snapshot
 
-<img width="1284" height="652" alt="Example" src="https://github.com/user-attachments/assets/699749b2-88b1-4d7f-acbc-308254c4223c" />
+<img width="1284" height="652" alt="Example" src="https://github.com/user-attachments/assets/b95b24fa-2881-478d-847c-dd0ecd62db74" />
 
 ## Getting Started
 
