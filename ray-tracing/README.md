@@ -1,7 +1,7 @@
 # Interactive Gaussian Beam Ray Tracer in MATLAB
 
 This project is an interactive ray tracing tool for modeling Gaussian beam propagation through multiple thin lenses using the ABCD matrix formalism. It features a graphical user interface (GUI) for intuitive editing and visualization of optical systems.
-## ✨ Features
+##  Features
 
 -  Real-time plotting of beam radius along the propagation axis
 -  Dynamic lens table with support for:
